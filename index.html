@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Local Drive Backup — личная утилита резервного копирования Google Drive с обработкой данных на компьютере владельца.">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'; connect-src 'none'">
+  <title>Local Drive Backup</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><nav aria-label="Основная навигация"><a href="index.html" aria-current="page">О приложении</a><a href="privacy.html">Конфиденциальность</a></nav></header>
+  <main>
+    <p class="eyebrow">Личная утилита резервного копирования</p>
+    <h1>Local Drive Backup</h1>
+    <p class="lead">Инструмент для сохранения и проверки восстанавливаемых копий Google Drive на компьютере владельца.</p>
+    <section aria-labelledby="purpose"><h2 id="purpose">Назначение приложения</h2>
+      <p>Local Drive Backup предназначен для личного использования владельцем Google-аккаунта. Локальная программа составляет список доступных файлов, скачивает обычные файлы и экспортирует документы Google в переносимые форматы. История изменений помогает восстановить предыдущие версии.</p>
+      <p>Программа запрашивает единственное разрешение Google: <code>https://www.googleapis.com/auth/drive.readonly</code>. Оно позволяет читать и скачивать доступные файлы, но не изменять их.</p>
+    </section>
+    <section aria-labelledby="processing"><h2 id="processing">Обработка на компьютере владельца</h2>
+      <p>Авторизация, скачивание, экспорт, проверка и восстановление выполняются локальной программой на Mac. Секреты авторизации хранятся на устройстве отдельно от резервных копий.</p>
+      <p>Дополнительное копирование из локального backup в личное облачное хранилище допускается только после отдельного подтверждения владельца.</p>
+    </section>
+    <section aria-labelledby="website"><h2 id="website">Справочный сайт</h2>
+      <p>Этот сайт содержит только описание приложения и политику конфиденциальности. Он не выполняет резервное копирование, не подключается к Google Drive и не принимает файлы, пароли или OAuth-токены.</p>
+      <p><a href="privacy.html">Политика конфиденциальности</a> описывает доступ, использование, хранение и удаление данных.</p>
+    </section>
+  </main>
+  <footer>Local Drive Backup · Личное использование</footer>
+</body>
+</html>
